@@ -1,0 +1,640 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+BACKEND_H	backend.h	2;"	d
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_NO	backend.h	18;"	d
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DISTDIR	Makefile	/^DISTDIR = \/home\/suraj\/phone\/.tmp\/phone1.0.0$/;"	m
+DISTNAME	Makefile	/^DISTNAME      = phone1.0.0$/;"	m
+EQ	Makefile	/^EQ            = =$/;"	m
+FIRST_DIGIT	backend.h	15;"	d
+Generator	backend.cpp	/^Generator :: Generator(){ $/;"	f	class:Generator
+Generator	backend.h	/^class Generator {$/;"	c
+History	backend.cpp	/^History :: History() { $/;"	f	class:History
+History	backend.h	/^class History {$/;"	c
+INCPATH	Makefile	/^INCPATH       = -I. -I. -isystem \/usr\/include\/x86_64-linux-gnu\/qt5 -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtWidgets -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtGui -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtCore -I. -I. -I\/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/linux-g++$/;"	m
+INSERT_NO	backend.h	16;"	d
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LANDLINE_NO	backend.h	13;"	d
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) \/usr\/lib\/x86_64-linux-gnu\/libQt5Widgets.so \/usr\/lib\/x86_64-linux-gnu\/libQt5Gui.so \/usr\/lib\/x86_64-linux-gnu\/libQt5Core.so \/usr\/lib\/x86_64-linux-gnu\/libGL.so -lpthread   $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	mainwindow.h	2;"	d
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOBILE_NO	backend.h	14;"	d
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainPage	ui_mainwindow.h	/^    QWidget *MainPage;$/;"	m	class:Ui_MainWindow
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent)$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow, public History {$/;"	c
+MainWindow	ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
+NORMAL	backend.h	11;"	d
+OBJECTS	Makefile	/^OBJECTS       = backend.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+PageAddNo	ui_mainwindow.h	/^    QWidget *PageAddNo;$/;"	m	class:Ui_MainWindow
+PageDelNo	ui_mainwindow.h	/^    QWidget *PageDelNo;$/;"	m	class:Ui_MainWindow
+PageGetInfo	ui_mainwindow.h	/^    QWidget *PageGetInfo;$/;"	m	class:Ui_MainWindow
+PageHistory	ui_mainwindow.h	/^    QWidget *PageHistory;$/;"	m	class:Ui_MainWindow
+PageUpdate	ui_mainwindow.h	/^    QWidget *PageUpdate;$/;"	m	class:Ui_MainWindow
+QINSTALL	Makefile	/^QINSTALL      = \/usr\/lib\/qt5\/bin\/qmake -install qinstall$/;"	m
+QINSTALL_PROGRAM	Makefile	/^QINSTALL_PROGRAM = \/usr\/lib\/qt5\/bin\/qmake -install qinstall -exe$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/lib\/qt5\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = phone$/;"	m
+QT_MOC_LITERAL	moc_mainwindow.cpp	27;"	d	file:
+QT_MOC_LITERAL	moc_mainwindow.cpp	63;"	d	file:
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = backend.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = phone$/;"	m
+Trie	backend.cpp	/^Trie::Trie() {$/;"	f	class:Trie
+Trie	backend.h	/^class Trie{$/;"	c
+UI_MAINWINDOW_H	ui_mainwindow.h	10;"	d
+UPDATE_INFO	backend.h	17;"	d
+Ui	mainwindow.h	/^namespace Ui { class MainWindow; }$/;"	n
+Ui	ui_mainwindow.h	/^namespace Ui {$/;"	n
+Ui_MainWindow	ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
+VIP	backend.h	12;"	d
+_FORTIFY_SOURCE	moc_predefs.h	77;"	d
+_GNU_SOURCE	moc_predefs.h	381;"	d
+_LP64	moc_predefs.h	308;"	d
+_STDC_PREDEF_H	moc_predefs.h	183;"	d
+__ATOMIC_ACQUIRE	moc_predefs.h	6;"	d
+__ATOMIC_ACQ_REL	moc_predefs.h	382;"	d
+__ATOMIC_CONSUME	moc_predefs.h	348;"	d
+__ATOMIC_HLE_ACQUIRE	moc_predefs.h	146;"	d
+__ATOMIC_HLE_RELEASE	moc_predefs.h	143;"	d
+__ATOMIC_RELAXED	moc_predefs.h	305;"	d
+__ATOMIC_RELEASE	moc_predefs.h	383;"	d
+__ATOMIC_SEQ_CST	moc_predefs.h	361;"	d
+__BIGGEST_ALIGNMENT__	moc_predefs.h	117;"	d
+__BYTE_ORDER__	moc_predefs.h	330;"	d
+__CET__	moc_predefs.h	33;"	d
+__CHAR16_TYPE__	moc_predefs.h	237;"	d
+__CHAR32_TYPE__	moc_predefs.h	336;"	d
+__CHAR_BIT__	moc_predefs.h	13;"	d
+__DBL_DECIMAL_DIG__	moc_predefs.h	319;"	d
+__DBL_DENORM_MIN__	moc_predefs.h	24;"	d
+__DBL_DIG__	moc_predefs.h	74;"	d
+__DBL_EPSILON__	moc_predefs.h	306;"	d
+__DBL_HAS_DENORM__	moc_predefs.h	201;"	d
+__DBL_HAS_INFINITY__	moc_predefs.h	124;"	d
+__DBL_HAS_QUIET_NAN__	moc_predefs.h	263;"	d
+__DBL_MANT_DIG__	moc_predefs.h	289;"	d
+__DBL_MAX_10_EXP__	moc_predefs.h	355;"	d
+__DBL_MAX_EXP__	moc_predefs.h	138;"	d
+__DBL_MAX__	moc_predefs.h	121;"	d
+__DBL_MIN_10_EXP__	moc_predefs.h	39;"	d
+__DBL_MIN_EXP__	moc_predefs.h	2;"	d
+__DBL_MIN__	moc_predefs.h	166;"	d
+__DEC128_EPSILON__	moc_predefs.h	141;"	d
+__DEC128_MANT_DIG__	moc_predefs.h	366;"	d
+__DEC128_MAX_EXP__	moc_predefs.h	346;"	d
+__DEC128_MAX__	moc_predefs.h	133;"	d
+__DEC128_MIN_EXP__	moc_predefs.h	195;"	d
+__DEC128_MIN__	moc_predefs.h	173;"	d
+__DEC128_SUBNORMAL_MIN__	moc_predefs.h	231;"	d
+__DEC32_EPSILON__	moc_predefs.h	58;"	d
+__DEC32_MANT_DIG__	moc_predefs.h	353;"	d
+__DEC32_MAX_EXP__	moc_predefs.h	252;"	d
+__DEC32_MAX__	moc_predefs.h	90;"	d
+__DEC32_MIN_EXP__	moc_predefs.h	126;"	d
+__DEC32_MIN__	moc_predefs.h	135;"	d
+__DEC32_SUBNORMAL_MIN__	moc_predefs.h	222;"	d
+__DEC64_EPSILON__	moc_predefs.h	193;"	d
+__DEC64_MANT_DIG__	moc_predefs.h	242;"	d
+__DEC64_MAX_EXP__	moc_predefs.h	46;"	d
+__DEC64_MAX__	moc_predefs.h	235;"	d
+__DEC64_MIN_EXP__	moc_predefs.h	276;"	d
+__DEC64_MIN__	moc_predefs.h	293;"	d
+__DEC64_SUBNORMAL_MIN__	moc_predefs.h	365;"	d
+__DECIMAL_BID_FORMAT__	moc_predefs.h	170;"	d
+__DECIMAL_DIG__	moc_predefs.h	101;"	d
+__DEC_EVAL_METHOD__	moc_predefs.h	323;"	d
+__DEPRECATED	moc_predefs.h	136;"	d
+__ELF__	moc_predefs.h	208;"	d
+__EXCEPTIONS	moc_predefs.h	261;"	d
+__FINITE_MATH_ONLY__	moc_predefs.h	40;"	d
+__FLOAT_WORD_ORDER__	moc_predefs.h	187;"	d
+__FLT128_DECIMAL_DIG__	moc_predefs.h	372;"	d
+__FLT128_DENORM_MIN__	moc_predefs.h	55;"	d
+__FLT128_DIG__	moc_predefs.h	190;"	d
+__FLT128_EPSILON__	moc_predefs.h	368;"	d
+__FLT128_HAS_DENORM__	moc_predefs.h	189;"	d
+__FLT128_HAS_INFINITY__	moc_predefs.h	160;"	d
+__FLT128_HAS_QUIET_NAN__	moc_predefs.h	313;"	d
+__FLT128_MANT_DIG__	moc_predefs.h	71;"	d
+__FLT128_MAX_10_EXP__	moc_predefs.h	7;"	d
+__FLT128_MAX_EXP__	moc_predefs.h	185;"	d
+__FLT128_MAX__	moc_predefs.h	254;"	d
+__FLT128_MIN_10_EXP__	moc_predefs.h	68;"	d
+__FLT128_MIN_EXP__	moc_predefs.h	65;"	d
+__FLT128_MIN__	moc_predefs.h	307;"	d
+__FLT32X_DECIMAL_DIG__	moc_predefs.h	28;"	d
+__FLT32X_DENORM_MIN__	moc_predefs.h	354;"	d
+__FLT32X_DIG__	moc_predefs.h	359;"	d
+__FLT32X_EPSILON__	moc_predefs.h	169;"	d
+__FLT32X_HAS_DENORM__	moc_predefs.h	128;"	d
+__FLT32X_HAS_INFINITY__	moc_predefs.h	93;"	d
+__FLT32X_HAS_QUIET_NAN__	moc_predefs.h	347;"	d
+__FLT32X_MANT_DIG__	moc_predefs.h	219;"	d
+__FLT32X_MAX_10_EXP__	moc_predefs.h	302;"	d
+__FLT32X_MAX_EXP__	moc_predefs.h	3;"	d
+__FLT32X_MAX__	moc_predefs.h	324;"	d
+__FLT32X_MIN_10_EXP__	moc_predefs.h	363;"	d
+__FLT32X_MIN_EXP__	moc_predefs.h	221;"	d
+__FLT32X_MIN__	moc_predefs.h	374;"	d
+__FLT32_DECIMAL_DIG__	moc_predefs.h	278;"	d
+__FLT32_DENORM_MIN__	moc_predefs.h	246;"	d
+__FLT32_DIG__	moc_predefs.h	85;"	d
+__FLT32_EPSILON__	moc_predefs.h	318;"	d
+__FLT32_HAS_DENORM__	moc_predefs.h	42;"	d
+__FLT32_HAS_INFINITY__	moc_predefs.h	120;"	d
+__FLT32_HAS_QUIET_NAN__	moc_predefs.h	147;"	d
+__FLT32_MANT_DIG__	moc_predefs.h	186;"	d
+__FLT32_MAX_10_EXP__	moc_predefs.h	196;"	d
+__FLT32_MAX_EXP__	moc_predefs.h	156;"	d
+__FLT32_MAX__	moc_predefs.h	140;"	d
+__FLT32_MIN_10_EXP__	moc_predefs.h	259;"	d
+__FLT32_MIN_EXP__	moc_predefs.h	16;"	d
+__FLT32_MIN__	moc_predefs.h	176;"	d
+__FLT64X_DECIMAL_DIG__	moc_predefs.h	172;"	d
+__FLT64X_DENORM_MIN__	moc_predefs.h	92;"	d
+__FLT64X_DIG__	moc_predefs.h	206;"	d
+__FLT64X_EPSILON__	moc_predefs.h	82;"	d
+__FLT64X_HAS_DENORM__	moc_predefs.h	230;"	d
+__FLT64X_HAS_INFINITY__	moc_predefs.h	199;"	d
+__FLT64X_HAS_QUIET_NAN__	moc_predefs.h	163;"	d
+__FLT64X_MANT_DIG__	moc_predefs.h	76;"	d
+__FLT64X_MAX_10_EXP__	moc_predefs.h	52;"	d
+__FLT64X_MAX_EXP__	moc_predefs.h	282;"	d
+__FLT64X_MAX__	moc_predefs.h	265;"	d
+__FLT64X_MIN_10_EXP__	moc_predefs.h	107;"	d
+__FLT64X_MIN_EXP__	moc_predefs.h	152;"	d
+__FLT64X_MIN__	moc_predefs.h	315;"	d
+__FLT64_DECIMAL_DIG__	moc_predefs.h	32;"	d
+__FLT64_DENORM_MIN__	moc_predefs.h	165;"	d
+__FLT64_DIG__	moc_predefs.h	224;"	d
+__FLT64_EPSILON__	moc_predefs.h	102;"	d
+__FLT64_HAS_DENORM__	moc_predefs.h	317;"	d
+__FLT64_HAS_INFINITY__	moc_predefs.h	264;"	d
+__FLT64_HAS_QUIET_NAN__	moc_predefs.h	258;"	d
+__FLT64_MANT_DIG__	moc_predefs.h	109;"	d
+__FLT64_MAX_10_EXP__	moc_predefs.h	119;"	d
+__FLT64_MAX_EXP__	moc_predefs.h	310;"	d
+__FLT64_MAX__	moc_predefs.h	299;"	d
+__FLT64_MIN_10_EXP__	moc_predefs.h	171;"	d
+__FLT64_MIN_EXP__	moc_predefs.h	105;"	d
+__FLT64_MIN__	moc_predefs.h	343;"	d
+__FLT_DECIMAL_DIG__	moc_predefs.h	376;"	d
+__FLT_DENORM_MIN__	moc_predefs.h	331;"	d
+__FLT_DIG__	moc_predefs.h	281;"	d
+__FLT_EPSILON__	moc_predefs.h	86;"	d
+__FLT_EVAL_METHOD_TS_18661_3__	moc_predefs.h	59;"	d
+__FLT_EVAL_METHOD__	moc_predefs.h	29;"	d
+__FLT_HAS_DENORM__	moc_predefs.h	115;"	d
+__FLT_HAS_INFINITY__	moc_predefs.h	232;"	d
+__FLT_HAS_QUIET_NAN__	moc_predefs.h	227;"	d
+__FLT_MANT_DIG__	moc_predefs.h	178;"	d
+__FLT_MAX_10_EXP__	moc_predefs.h	228;"	d
+__FLT_MAX_EXP__	moc_predefs.h	287;"	d
+__FLT_MAX__	moc_predefs.h	337;"	d
+__FLT_MIN_10_EXP__	moc_predefs.h	342;"	d
+__FLT_MIN_EXP__	moc_predefs.h	161;"	d
+__FLT_MIN__	moc_predefs.h	8;"	d
+__FLT_RADIX__	moc_predefs.h	210;"	d
+__FXSR__	moc_predefs.h	322;"	d
+__GCC_ASM_FLAG_OUTPUTS__	moc_predefs.h	209;"	d
+__GCC_ATOMIC_BOOL_LOCK_FREE	moc_predefs.h	54;"	d
+__GCC_ATOMIC_CHAR16_T_LOCK_FREE	moc_predefs.h	80;"	d
+__GCC_ATOMIC_CHAR32_T_LOCK_FREE	moc_predefs.h	34;"	d
+__GCC_ATOMIC_CHAR_LOCK_FREE	moc_predefs.h	26;"	d
+__GCC_ATOMIC_INT_LOCK_FREE	moc_predefs.h	184;"	d
+__GCC_ATOMIC_LLONG_LOCK_FREE	moc_predefs.h	373;"	d
+__GCC_ATOMIC_LONG_LOCK_FREE	moc_predefs.h	247;"	d
+__GCC_ATOMIC_POINTER_LOCK_FREE	moc_predefs.h	75;"	d
+__GCC_ATOMIC_SHORT_LOCK_FREE	moc_predefs.h	378;"	d
+__GCC_ATOMIC_TEST_AND_SET_TRUEVAL	moc_predefs.h	280;"	d
+__GCC_ATOMIC_WCHAR_T_LOCK_FREE	moc_predefs.h	217;"	d
+__GCC_HAVE_DWARF2_CFI_ASM	moc_predefs.h	158;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1	moc_predefs.h	21;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2	moc_predefs.h	22;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4	moc_predefs.h	23;"	d
+__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8	moc_predefs.h	25;"	d
+__GCC_IEC_559	moc_predefs.h	27;"	d
+__GCC_IEC_559_COMPLEX	moc_predefs.h	9;"	d
+__GLIBCXX_BITSIZE_INT_N_0	moc_predefs.h	214;"	d
+__GLIBCXX_TYPE_INT_N_0	moc_predefs.h	350;"	d
+__GNUC_MINOR__	moc_predefs.h	349;"	d
+__GNUC_PATCHLEVEL__	moc_predefs.h	41;"	d
+__GNUC_STDC_INLINE__	moc_predefs.h	316;"	d
+__GNUC__	moc_predefs.h	110;"	d
+__GNUG__	moc_predefs.h	148;"	d
+__GXX_ABI_VERSION	moc_predefs.h	159;"	d
+__GXX_EXPERIMENTAL_CXX0X__	moc_predefs.h	63;"	d
+__GXX_RTTI	moc_predefs.h	111;"	d
+__GXX_WEAK__	moc_predefs.h	87;"	d
+__HAVE_SPECULATION_SAFE_VALUE	moc_predefs.h	125;"	d
+__INT16_C	moc_predefs.h	357;"	d
+__INT16_MAX__	moc_predefs.h	202;"	d
+__INT16_TYPE__	moc_predefs.h	250;"	d
+__INT32_C	moc_predefs.h	192;"	d
+__INT32_MAX__	moc_predefs.h	94;"	d
+__INT32_TYPE__	moc_predefs.h	339;"	d
+__INT64_C	moc_predefs.h	73;"	d
+__INT64_MAX__	moc_predefs.h	243;"	d
+__INT64_TYPE__	moc_predefs.h	286;"	d
+__INT8_C	moc_predefs.h	47;"	d
+__INT8_MAX__	moc_predefs.h	332;"	d
+__INT8_TYPE__	moc_predefs.h	207;"	d
+__INTMAX_C	moc_predefs.h	12;"	d
+__INTMAX_MAX__	moc_predefs.h	328;"	d
+__INTMAX_TYPE__	moc_predefs.h	345;"	d
+__INTMAX_WIDTH__	moc_predefs.h	104;"	d
+__INTPTR_MAX__	moc_predefs.h	255;"	d
+__INTPTR_TYPE__	moc_predefs.h	269;"	d
+__INTPTR_WIDTH__	moc_predefs.h	127;"	d
+__INT_FAST16_MAX__	moc_predefs.h	223;"	d
+__INT_FAST16_TYPE__	moc_predefs.h	129;"	d
+__INT_FAST16_WIDTH__	moc_predefs.h	351;"	d
+__INT_FAST32_MAX__	moc_predefs.h	123;"	d
+__INT_FAST32_TYPE__	moc_predefs.h	197;"	d
+__INT_FAST32_WIDTH__	moc_predefs.h	236;"	d
+__INT_FAST64_MAX__	moc_predefs.h	279;"	d
+__INT_FAST64_TYPE__	moc_predefs.h	164;"	d
+__INT_FAST64_WIDTH__	moc_predefs.h	275;"	d
+__INT_FAST8_MAX__	moc_predefs.h	253;"	d
+__INT_FAST8_TYPE__	moc_predefs.h	314;"	d
+__INT_FAST8_WIDTH__	moc_predefs.h	321;"	d
+__INT_LEAST16_MAX__	moc_predefs.h	241;"	d
+__INT_LEAST16_TYPE__	moc_predefs.h	211;"	d
+__INT_LEAST16_WIDTH__	moc_predefs.h	69;"	d
+__INT_LEAST32_MAX__	moc_predefs.h	134;"	d
+__INT_LEAST32_TYPE__	moc_predefs.h	311;"	d
+__INT_LEAST32_WIDTH__	moc_predefs.h	344;"	d
+__INT_LEAST64_MAX__	moc_predefs.h	292;"	d
+__INT_LEAST64_TYPE__	moc_predefs.h	249;"	d
+__INT_LEAST64_WIDTH__	moc_predefs.h	379;"	d
+__INT_LEAST8_MAX__	moc_predefs.h	301;"	d
+__INT_LEAST8_TYPE__	moc_predefs.h	251;"	d
+__INT_LEAST8_WIDTH__	moc_predefs.h	48;"	d
+__INT_MAX__	moc_predefs.h	284;"	d
+__INT_WIDTH__	moc_predefs.h	95;"	d
+__LDBL_DECIMAL_DIG__	moc_predefs.h	179;"	d
+__LDBL_DENORM_MIN__	moc_predefs.h	356;"	d
+__LDBL_DIG__	moc_predefs.h	375;"	d
+__LDBL_EPSILON__	moc_predefs.h	212;"	d
+__LDBL_HAS_DENORM__	moc_predefs.h	130;"	d
+__LDBL_HAS_INFINITY__	moc_predefs.h	84;"	d
+__LDBL_HAS_QUIET_NAN__	moc_predefs.h	108;"	d
+__LDBL_MANT_DIG__	moc_predefs.h	262;"	d
+__LDBL_MAX_10_EXP__	moc_predefs.h	304;"	d
+__LDBL_MAX_EXP__	moc_predefs.h	64;"	d
+__LDBL_MAX__	moc_predefs.h	51;"	d
+__LDBL_MIN_10_EXP__	moc_predefs.h	367;"	d
+__LDBL_MIN_EXP__	moc_predefs.h	298;"	d
+__LDBL_MIN__	moc_predefs.h	89;"	d
+__LONG_LONG_MAX__	moc_predefs.h	149;"	d
+__LONG_LONG_WIDTH__	moc_predefs.h	154;"	d
+__LONG_MAX__	moc_predefs.h	229;"	d
+__LONG_WIDTH__	moc_predefs.h	333;"	d
+__LP64__	moc_predefs.h	168;"	d
+__MMX__	moc_predefs.h	113;"	d
+__OPTIMIZE__	moc_predefs.h	60;"	d
+__ORDER_BIG_ENDIAN__	moc_predefs.h	288;"	d
+__ORDER_LITTLE_ENDIAN__	moc_predefs.h	18;"	d
+__ORDER_PDP_ENDIAN__	moc_predefs.h	194;"	d
+__PIC__	moc_predefs.h	334;"	d
+__PIE__	moc_predefs.h	167;"	d
+__PRAGMA_REDEFINE_EXTNAME	moc_predefs.h	238;"	d
+__PTRDIFF_MAX__	moc_predefs.h	144;"	d
+__PTRDIFF_TYPE__	moc_predefs.h	360;"	d
+__PTRDIFF_WIDTH__	moc_predefs.h	100;"	d
+__REGISTER_PREFIX__	moc_predefs.h	174;"	d
+__SCHAR_MAX__	moc_predefs.h	70;"	d
+__SCHAR_WIDTH__	moc_predefs.h	191;"	d
+__SEG_FS	moc_predefs.h	240;"	d
+__SEG_GS	moc_predefs.h	245;"	d
+__SHRT_MAX__	moc_predefs.h	50;"	d
+__SHRT_WIDTH__	moc_predefs.h	88;"	d
+__SIG_ATOMIC_MAX__	moc_predefs.h	216;"	d
+__SIG_ATOMIC_MIN__	moc_predefs.h	266;"	d
+__SIG_ATOMIC_TYPE__	moc_predefs.h	38;"	d
+__SIG_ATOMIC_WIDTH__	moc_predefs.h	248;"	d
+__SIZEOF_DOUBLE__	moc_predefs.h	340;"	d
+__SIZEOF_FLOAT128__	moc_predefs.h	291;"	d
+__SIZEOF_FLOAT80__	moc_predefs.h	11;"	d
+__SIZEOF_FLOAT__	moc_predefs.h	272;"	d
+__SIZEOF_INT128__	moc_predefs.h	303;"	d
+__SIZEOF_INT__	moc_predefs.h	78;"	d
+__SIZEOF_LONG_DOUBLE__	moc_predefs.h	116;"	d
+__SIZEOF_LONG_LONG__	moc_predefs.h	370;"	d
+__SIZEOF_LONG__	moc_predefs.h	96;"	d
+__SIZEOF_POINTER__	moc_predefs.h	79;"	d
+__SIZEOF_PTRDIFF_T__	moc_predefs.h	218;"	d
+__SIZEOF_SHORT__	moc_predefs.h	296;"	d
+__SIZEOF_SIZE_T__	moc_predefs.h	150;"	d
+__SIZEOF_WCHAR_T__	moc_predefs.h	312;"	d
+__SIZEOF_WINT_T__	moc_predefs.h	153;"	d
+__SIZE_MAX__	moc_predefs.h	19;"	d
+__SIZE_TYPE__	moc_predefs.h	204;"	d
+__SIZE_WIDTH__	moc_predefs.h	239;"	d
+__SSE2_MATH__	moc_predefs.h	142;"	d
+__SSE2__	moc_predefs.h	260;"	d
+__SSE_MATH__	moc_predefs.h	369;"	d
+__SSE__	moc_predefs.h	297;"	d
+__SSP_STRONG__	moc_predefs.h	1;"	d
+__STDC_HOSTED__	moc_predefs.h	83;"	d
+__STDC_IEC_559_COMPLEX__	moc_predefs.h	188;"	d
+__STDC_IEC_559__	moc_predefs.h	97;"	d
+__STDC_ISO_10646__	moc_predefs.h	98;"	d
+__STDC_UTF_16__	moc_predefs.h	118;"	d
+__STDC_UTF_32__	moc_predefs.h	320;"	d
+__STDC__	moc_predefs.h	358;"	d
+__UINT16_C	moc_predefs.h	99;"	d
+__UINT16_MAX__	moc_predefs.h	175;"	d
+__UINT16_TYPE__	moc_predefs.h	270;"	d
+__UINT32_C	moc_predefs.h	327;"	d
+__UINT32_MAX__	moc_predefs.h	62;"	d
+__UINT32_TYPE__	moc_predefs.h	362;"	d
+__UINT64_C	moc_predefs.h	181;"	d
+__UINT64_MAX__	moc_predefs.h	205;"	d
+__UINT64_TYPE__	moc_predefs.h	326;"	d
+__UINT8_C	moc_predefs.h	309;"	d
+__UINT8_MAX__	moc_predefs.h	14;"	d
+__UINT8_TYPE__	moc_predefs.h	177;"	d
+__UINTMAX_C	moc_predefs.h	213;"	d
+__UINTMAX_MAX__	moc_predefs.h	352;"	d
+__UINTMAX_TYPE__	moc_predefs.h	56;"	d
+__UINTPTR_MAX__	moc_predefs.h	274;"	d
+__UINTPTR_TYPE__	moc_predefs.h	364;"	d
+__UINT_FAST16_MAX__	moc_predefs.h	377;"	d
+__UINT_FAST16_TYPE__	moc_predefs.h	234;"	d
+__UINT_FAST32_MAX__	moc_predefs.h	225;"	d
+__UINT_FAST32_TYPE__	moc_predefs.h	335;"	d
+__UINT_FAST64_MAX__	moc_predefs.h	37;"	d
+__UINT_FAST64_TYPE__	moc_predefs.h	283;"	d
+__UINT_FAST8_MAX__	moc_predefs.h	43;"	d
+__UINT_FAST8_TYPE__	moc_predefs.h	380;"	d
+__UINT_LEAST16_MAX__	moc_predefs.h	5;"	d
+__UINT_LEAST16_TYPE__	moc_predefs.h	198;"	d
+__UINT_LEAST32_MAX__	moc_predefs.h	244;"	d
+__UINT_LEAST32_TYPE__	moc_predefs.h	295;"	d
+__UINT_LEAST64_MAX__	moc_predefs.h	49;"	d
+__UINT_LEAST64_TYPE__	moc_predefs.h	226;"	d
+__UINT_LEAST8_MAX__	moc_predefs.h	53;"	d
+__UINT_LEAST8_TYPE__	moc_predefs.h	10;"	d
+__USER_LABEL_PREFIX__	moc_predefs.h	81;"	d
+__VERSION__	moc_predefs.h	180;"	d
+__WCHAR_MAX__	moc_predefs.h	20;"	d
+__WCHAR_MIN__	moc_predefs.h	72;"	d
+__WCHAR_TYPE__	moc_predefs.h	271;"	d
+__WCHAR_WIDTH__	moc_predefs.h	139;"	d
+__WINT_MAX__	moc_predefs.h	15;"	d
+__WINT_MIN__	moc_predefs.h	66;"	d
+__WINT_TYPE__	moc_predefs.h	294;"	d
+__WINT_WIDTH__	moc_predefs.h	300;"	d
+__amd64	moc_predefs.h	145;"	d
+__amd64__	moc_predefs.h	285;"	d
+__code_model_small__	moc_predefs.h	267;"	d
+__cplusplus	moc_predefs.h	131;"	d
+__cpp_alias_templates	moc_predefs.h	329;"	d
+__cpp_attributes	moc_predefs.h	4;"	d
+__cpp_binary_literals	moc_predefs.h	31;"	d
+__cpp_constexpr	moc_predefs.h	338;"	d
+__cpp_decltype	moc_predefs.h	277;"	d
+__cpp_delegating_constructors	moc_predefs.h	114;"	d
+__cpp_exceptions	moc_predefs.h	341;"	d
+__cpp_hex_float	moc_predefs.h	157;"	d
+__cpp_inheriting_constructors	moc_predefs.h	290;"	d
+__cpp_initializer_lists	moc_predefs.h	155;"	d
+__cpp_lambdas	moc_predefs.h	162;"	d
+__cpp_nsdmi	moc_predefs.h	151;"	d
+__cpp_range_based_for	moc_predefs.h	257;"	d
+__cpp_raw_strings	moc_predefs.h	122;"	d
+__cpp_ref_qualifiers	moc_predefs.h	132;"	d
+__cpp_rtti	moc_predefs.h	203;"	d
+__cpp_runtime_arrays	moc_predefs.h	325;"	d
+__cpp_rvalue_reference	moc_predefs.h	44;"	d
+__cpp_rvalue_references	moc_predefs.h	137;"	d
+__cpp_static_assert	moc_predefs.h	17;"	d
+__cpp_threadsafe_static_init	moc_predefs.h	91;"	d
+__cpp_unicode_characters	moc_predefs.h	182;"	d
+__cpp_unicode_literals	moc_predefs.h	233;"	d
+__cpp_user_defined_literals	moc_predefs.h	371;"	d
+__cpp_variadic_templates	moc_predefs.h	36;"	d
+__gnu_linux__	moc_predefs.h	103;"	d
+__has_include	moc_predefs.h	45;"	d
+__has_include_next	moc_predefs.h	106;"	d
+__k8	moc_predefs.h	215;"	d
+__k8__	moc_predefs.h	268;"	d
+__linux	moc_predefs.h	57;"	d
+__linux__	moc_predefs.h	67;"	d
+__pic__	moc_predefs.h	273;"	d
+__pie__	moc_predefs.h	112;"	d
+__unix	moc_predefs.h	61;"	d
+__unix__	moc_predefs.h	30;"	d
+__x86_64	moc_predefs.h	35;"	d
+__x86_64__	moc_predefs.h	220;"	d
+addNoSubmit	ui_mainwindow.h	/^    QPushButton *addNoSubmit;$/;"	m	class:Ui_MainWindow
+addno	ui_mainwindow.h	/^    QPushButton *addno;$/;"	m	class:Ui_MainWindow
+base_time	backend.h	/^                time_t base_time;$/;"	m	class:History
+binary_search	backend.cpp	/^int History :: binary_search(std :: vector<hstry> his, time_t time) {$/;"	f	class:History
+centralwidget	ui_mainwindow.h	/^    QWidget *centralwidget;$/;"	m	class:Ui_MainWindow
+ch	backend.h	/^		char ch;$/;"	m	class:node
+ch	backend.h	/^		int ch;$/;"	m	class:leaf_node
+child	backend.h	/^		node *parent, *child[10];$/;"	m	class:node
+comboBox_2	ui_mainwindow.h	/^    QComboBox *comboBox_2;$/;"	m	class:Ui_MainWindow
+comboBox_3	ui_mainwindow.h	/^    QComboBox *comboBox_3;$/;"	m	class:Ui_MainWindow
+company	backend.h	/^	std::string company;$/;"	m	struct:info
+count	backend.h	/^		static int count;$/;"	m	class:leaf_node
+data	moc_mainwindow.cpp	/^    QByteArrayData data[16];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
+delete_number	backend.cpp	/^void Trie::delete_number(std::string num) {$/;"	f	class:Trie
+delno	ui_mainwindow.h	/^    QPushButton *delno;$/;"	m	class:Ui_MainWindow
+email	backend.h	/^	std::string email;$/;"	m	struct:info
+fill_vector	backend.cpp	/^void fill_vector(node *nn,vector<char> v){$/;"	f
+generate_number	backend.cpp	/^std :: string Generator :: generate_number(int type, int country_or_area_code) {$/;"	f	class:Generator
+generate_number	backend.cpp	/^std :: string Generator :: generate_number(int type, int country_or_area_code, int size, int vip) {$/;"	f	class:Generator
+get_history	mainwindow.cpp	/^std::vector<hstry> MainWindow::get_history() {$/;"	f	class:MainWindow
+get_info	backend.cpp	/^info* Trie::get_info(std::string num) {$/;"	f	class:Trie
+get_info_one	backend.cpp	/^std::string Trie::get_info_one(std::string num, int mode) {$/;"	f	class:Trie
+get_phonebook	mainwindow.cpp	/^Trie MainWindow::get_phonebook() {$/;"	f	class:MainWindow
+get_time	backend.cpp	/^time_t History :: get_time() {$/;"	f	class:History
+getinfo	ui_mainwindow.h	/^    QPushButton *getinfo;$/;"	m	class:Ui_MainWindow
+getrandomdigit	backend.cpp	/^char Generator :: getrandomdigit() {$/;"	f	class:Generator
+getrandomdigit	backend.cpp	/^char Generator :: getrandomdigit(int flag) {$/;"	f	class:Generator
+go_to_end	backend.cpp	/^void go_to_end(node *nn){$/;"	f
+history	backend.h	/^                std :: vector<hstry> history;$/;"	m	class:History
+history	mainwindow.h	/^		History *history;$/;"	m	class:MainWindow
+history	ui_mainwindow.h	/^    QPushButton *history;$/;"	m	class:Ui_MainWindow
+hstry	backend.h	/^typedef struct hstry {$/;"	s
+hstry	backend.h	/^} hstry;$/;"	t	typeref:struct:hstry
+inf	backend.h	/^		info *inf;$/;"	m	class:node
+info	backend.h	/^typedef struct info {$/;"	s
+info	backend.h	/^}info;$/;"	t	typeref:struct:info
+info_H	backend.h	/^        info *info_H;$/;"	m	struct:hstry
+init_leaf_node	backend.cpp	/^void leaf_node::init_leaf_node() {$/;"	f	class:leaf_node
+init_node	backend.cpp	/^void node::init_node() {$/;"	f	class:node
+insert_info	backend.cpp	/^void Trie::insert_info(std::string num,info* information) {$/;"	f	class:Trie
+insert_number	backend.cpp	/^void Trie::insert_number(std::string number) {$/;"	f	class:Trie
+isAadhar	backend.cpp	/^bool isAadhar(string s)$/;"	f
+isName	backend.cpp	/^bool isName(string s)$/;"	f
+isNumber	backend.cpp	/^bool isNumber(string s)$/;"	f
+is_present	backend.cpp	/^int Trie::is_present(std::string num) {$/;"	f	class:Trie
+label	ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
+label_10	ui_mainwindow.h	/^    QLabel *label_10;$/;"	m	class:Ui_MainWindow
+label_11	ui_mainwindow.h	/^    QLabel *label_11;$/;"	m	class:Ui_MainWindow
+label_12	ui_mainwindow.h	/^    QLabel *label_12;$/;"	m	class:Ui_MainWindow
+label_13	ui_mainwindow.h	/^    QLabel *label_13;$/;"	m	class:Ui_MainWindow
+label_14	ui_mainwindow.h	/^    QLabel *label_14;$/;"	m	class:Ui_MainWindow
+label_15	ui_mainwindow.h	/^    QLabel *label_15;$/;"	m	class:Ui_MainWindow
+label_16	ui_mainwindow.h	/^    QLabel *label_16;$/;"	m	class:Ui_MainWindow
+label_17	ui_mainwindow.h	/^    QLabel *label_17;$/;"	m	class:Ui_MainWindow
+label_18	ui_mainwindow.h	/^    QLabel *label_18;$/;"	m	class:Ui_MainWindow
+label_19	ui_mainwindow.h	/^    QLabel *label_19;$/;"	m	class:Ui_MainWindow
+label_2	ui_mainwindow.h	/^    QLabel *label_2;$/;"	m	class:Ui_MainWindow
+label_20	ui_mainwindow.h	/^    QLabel *label_20;$/;"	m	class:Ui_MainWindow
+label_21	ui_mainwindow.h	/^    QLabel *label_21;$/;"	m	class:Ui_MainWindow
+label_22	ui_mainwindow.h	/^    QLabel *label_22;$/;"	m	class:Ui_MainWindow
+label_23	ui_mainwindow.h	/^    QLabel *label_23;$/;"	m	class:Ui_MainWindow
+label_24	ui_mainwindow.h	/^    QLabel *label_24;$/;"	m	class:Ui_MainWindow
+label_25	ui_mainwindow.h	/^    QLabel *label_25;$/;"	m	class:Ui_MainWindow
+label_26	ui_mainwindow.h	/^    QLabel *label_26;$/;"	m	class:Ui_MainWindow
+label_27	ui_mainwindow.h	/^    QLabel *label_27;$/;"	m	class:Ui_MainWindow
+label_28	ui_mainwindow.h	/^    QLabel *label_28;$/;"	m	class:Ui_MainWindow
+label_29	ui_mainwindow.h	/^    QLabel *label_29;$/;"	m	class:Ui_MainWindow
+label_3	ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow
+label_30	ui_mainwindow.h	/^    QLabel *label_30;$/;"	m	class:Ui_MainWindow
+label_31	ui_mainwindow.h	/^    QLabel *label_31;$/;"	m	class:Ui_MainWindow
+label_32	ui_mainwindow.h	/^    QLabel *label_32;$/;"	m	class:Ui_MainWindow
+label_33	ui_mainwindow.h	/^    QLabel *label_33;$/;"	m	class:Ui_MainWindow
+label_34	ui_mainwindow.h	/^    QLabel *label_34;$/;"	m	class:Ui_MainWindow
+label_35	ui_mainwindow.h	/^    QLabel *label_35;$/;"	m	class:Ui_MainWindow
+label_36	ui_mainwindow.h	/^    QLabel *label_36;$/;"	m	class:Ui_MainWindow
+label_37	ui_mainwindow.h	/^    QLabel *label_37;$/;"	m	class:Ui_MainWindow
+label_4	ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow
+label_5	ui_mainwindow.h	/^    QLabel *label_5;$/;"	m	class:Ui_MainWindow
+label_6	ui_mainwindow.h	/^    QLabel *label_6;$/;"	m	class:Ui_MainWindow
+label_7	ui_mainwindow.h	/^    QLabel *label_7;$/;"	m	class:Ui_MainWindow
+label_8	ui_mainwindow.h	/^    QLabel *label_8;$/;"	m	class:Ui_MainWindow
+label_9	ui_mainwindow.h	/^    QLabel *label_9;$/;"	m	class:Ui_MainWindow
+label_img	ui_mainwindow.h	/^    QLabel *label_img;$/;"	m	class:Ui_MainWindow
+leaf_node	backend.h	/^class leaf_node: public node{$/;"	c
+lineEdit	ui_mainwindow.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_MainWindow
+lineEdit_2	ui_mainwindow.h	/^    QLineEdit *lineEdit_2;$/;"	m	class:Ui_MainWindow
+lineEdit_3	ui_mainwindow.h	/^    QLineEdit *lineEdit_3;$/;"	m	class:Ui_MainWindow
+lineEdit_4	ui_mainwindow.h	/^    QLineEdit *lineEdit_4;$/;"	m	class:Ui_MainWindow
+lineEdit_5	ui_mainwindow.h	/^    QLineEdit *lineEdit_5;$/;"	m	class:Ui_MainWindow
+lineEdit_6	ui_mainwindow.h	/^    QLineEdit *lineEdit_6;$/;"	m	class:Ui_MainWindow
+linux	moc_predefs.h	256;"	d
+main	main.cpp	/^int main(int argc, char *argv[]) {$/;"	f
+main_table	ui_mainwindow.h	/^    QTableWidget *main_table;$/;"	m	class:Ui_MainWindow
+menubar	ui_mainwindow.h	/^    QMenuBar *menubar;$/;"	m	class:Ui_MainWindow
+metaObject	moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+name	backend.h	/^	std::string name;$/;"	m	struct:info
+noType	ui_mainwindow.h	/^    QComboBox *noType;$/;"	m	class:Ui_MainWindow
+node	backend.h	/^class node{$/;"	c
+num	backend.h	/^	std :: string num;$/;"	m	struct:hstry
+number	backend.cpp	/^vector<string> number;$/;"	v
+number_all	backend.cpp	/^vector<char> number_all[1000];$/;"	v
+number_count	backend.cpp	/^int number_count = 0;$/;"	v
+on_addNoSubmit_clicked	mainwindow.cpp	/^void MainWindow::on_addNoSubmit_clicked()$/;"	f	class:MainWindow
+on_addno_clicked	mainwindow.cpp	/^void MainWindow::on_addno_clicked()$/;"	f	class:MainWindow
+on_delno_clicked	mainwindow.cpp	/^void MainWindow::on_delno_clicked()$/;"	f	class:MainWindow
+on_getinfo_clicked	mainwindow.cpp	/^void MainWindow::on_getinfo_clicked()$/;"	f	class:MainWindow
+on_history_clicked	mainwindow.cpp	/^void MainWindow::on_history_clicked()$/;"	f	class:MainWindow
+on_pushButton_14_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_14_clicked()$/;"	f	class:MainWindow
+on_pushButton_15_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_15_clicked()$/;"	f	class:MainWindow
+on_pushButton_16_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_16_clicked()$/;"	f	class:MainWindow
+on_pushButton_17_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_17_clicked()$/;"	f	class:MainWindow
+on_pushButton_18_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_18_clicked()$/;"	f	class:MainWindow
+on_tableWidget_cellClicked	mainwindow.cpp	/^void MainWindow::on_tableWidget_cellClicked(int row, int column)$/;"	f	class:MainWindow
+on_update_clicked	mainwindow.cpp	/^void MainWindow::on_update_clicked()$/;"	f	class:MainWindow
+operation	backend.h	/^        int operation;$/;"	m	struct:hstry
+parent	backend.h	/^		node *parent, *child[10];$/;"	m	class:node
+parent	backend.h	/^		node *parent;$/;"	m	class:leaf_node
+phonebook	mainwindow.h	/^		Trie *phonebook;$/;"	m	class:MainWindow
+print	backend.cpp	/^void History :: print() {$/;"	f	class:History
+pushButton_10	ui_mainwindow.h	/^    QPushButton *pushButton_10;$/;"	m	class:Ui_MainWindow
+pushButton_11	ui_mainwindow.h	/^    QPushButton *pushButton_11;$/;"	m	class:Ui_MainWindow
+pushButton_12	ui_mainwindow.h	/^    QPushButton *pushButton_12;$/;"	m	class:Ui_MainWindow
+pushButton_13	ui_mainwindow.h	/^    QPushButton *pushButton_13;$/;"	m	class:Ui_MainWindow
+pushButton_14	ui_mainwindow.h	/^    QPushButton *pushButton_14;$/;"	m	class:Ui_MainWindow
+pushButton_15	ui_mainwindow.h	/^    QPushButton *pushButton_15;$/;"	m	class:Ui_MainWindow
+pushButton_16	ui_mainwindow.h	/^    QPushButton *pushButton_16;$/;"	m	class:Ui_MainWindow
+pushButton_17	ui_mainwindow.h	/^    QPushButton *pushButton_17;$/;"	m	class:Ui_MainWindow
+pushButton_18	ui_mainwindow.h	/^    QPushButton *pushButton_18;$/;"	m	class:Ui_MainWindow
+pushButton_5	ui_mainwindow.h	/^    QPushButton *pushButton_5;$/;"	m	class:Ui_MainWindow
+pushButton_6	ui_mainwindow.h	/^    QPushButton *pushButton_6;$/;"	m	class:Ui_MainWindow
+pushButton_9	ui_mainwindow.h	/^    QPushButton *pushButton_9;$/;"	m	class:Ui_MainWindow
+qt_meta_data_MainWindow	moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	moc_mainwindow.cpp	/^static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {$/;"	v	file:
+qt_meta_stringdata_MainWindow_t	moc_mainwindow.cpp	/^struct qt_meta_stringdata_MainWindow_t {$/;"	s	file:
+qt_metacall	moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_metacast	moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
+qt_static_metacall	moc_mainwindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+retranslateUi	ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+retrive	backend.cpp	/^std :: vector<hstry> History :: retrive() {$/;"	f	class:History
+retrive	backend.cpp	/^std :: vector<hstry> History :: retrive(time_t time, int N) {$/;"	f	class:History
+retrive	backend.cpp	/^std :: vector<hstry> History :: retrive(time_t time1, time_t time2) {$/;"	f	class:History
+root	backend.h	/^		node *root;$/;"	m	class:Trie
+setupUi	ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+stackedWidget	ui_mainwindow.h	/^    QStackedWidget *stackedWidget;$/;"	m	class:Ui_MainWindow
+staticMetaObject	moc_mainwindow.cpp	/^QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {$/;"	m	class:MainWindow	file:
+statusbar	ui_mainwindow.h	/^    QStatusBar *statusbar;$/;"	m	class:Ui_MainWindow
+store_history	backend.cpp	/^void History :: store_history(std :: string num, int operation) {$/;"	f	class:History
+store_history	backend.cpp	/^void History :: store_history(std :: string num, int operation, info Inf) {$/;"	f	class:History
+store_vector_into_string	backend.cpp	/^void store_vector_into_string(){$/;"	f
+stringdata0	moc_mainwindow.cpp	/^    char stringdata0[288];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
+tableView	ui_mainwindow.h	/^    QTableView *tableView;$/;"	m	class:Ui_MainWindow
+tableView_2	ui_mainwindow.h	/^    QTableView *tableView_2;$/;"	m	class:Ui_MainWindow
+tableView_3	ui_mainwindow.h	/^    QTableView *tableView_3;$/;"	m	class:Ui_MainWindow
+tableView_4	ui_mainwindow.h	/^    QTableView *tableView_4;$/;"	m	class:Ui_MainWindow
+tableWidget	ui_mainwindow.h	/^    QTableWidget *tableWidget;$/;"	m	class:Ui_MainWindow
+tableWidget_2	ui_mainwindow.h	/^    QTableWidget *tableWidget_2;$/;"	m	class:Ui_MainWindow
+textBrowser	ui_mainwindow.h	/^    QTextBrowser *textBrowser;$/;"	m	class:Ui_MainWindow
+textBrowser_10	ui_mainwindow.h	/^    QTextBrowser *textBrowser_10;$/;"	m	class:Ui_MainWindow
+textBrowser_2	ui_mainwindow.h	/^    QTextBrowser *textBrowser_2;$/;"	m	class:Ui_MainWindow
+textBrowser_3	ui_mainwindow.h	/^    QTextBrowser *textBrowser_3;$/;"	m	class:Ui_MainWindow
+textBrowser_4	ui_mainwindow.h	/^    QTextBrowser *textBrowser_4;$/;"	m	class:Ui_MainWindow
+textBrowser_5	ui_mainwindow.h	/^    QTextBrowser *textBrowser_5;$/;"	m	class:Ui_MainWindow
+textBrowser_6	ui_mainwindow.h	/^    QTextBrowser *textBrowser_6;$/;"	m	class:Ui_MainWindow
+textBrowser_7	ui_mainwindow.h	/^    QTextBrowser *textBrowser_7;$/;"	m	class:Ui_MainWindow
+textBrowser_8	ui_mainwindow.h	/^    QTextBrowser *textBrowser_8;$/;"	m	class:Ui_MainWindow
+textBrowser_9	ui_mainwindow.h	/^    QTextBrowser *textBrowser_9;$/;"	m	class:Ui_MainWindow
+textEdit	ui_mainwindow.h	/^    QTextEdit *textEdit;$/;"	m	class:Ui_MainWindow
+textEdit_2	ui_mainwindow.h	/^    QTextEdit *textEdit_2;$/;"	m	class:Ui_MainWindow
+textEdit_3	ui_mainwindow.h	/^    QTextEdit *textEdit_3;$/;"	m	class:Ui_MainWindow
+textEdit_4	ui_mainwindow.h	/^    QTextEdit *textEdit_4;$/;"	m	class:Ui_MainWindow
+textEdit_5	ui_mainwindow.h	/^    QTextEdit *textEdit_5;$/;"	m	class:Ui_MainWindow
+textEdit_6	ui_mainwindow.h	/^    QTextEdit *textEdit_6;$/;"	m	class:Ui_MainWindow
+textEdit_7	ui_mainwindow.h	/^    QTextEdit *textEdit_7;$/;"	m	class:Ui_MainWindow
+textEdit_8	ui_mainwindow.h	/^    QTextEdit *textEdit_8;$/;"	m	class:Ui_MainWindow
+textEdit_9	ui_mainwindow.h	/^    QTextEdit *textEdit_9;$/;"	m	class:Ui_MainWindow
+time	backend.h	/^        time_t time;$/;"	m	struct:hstry
+traverse_directory	backend.cpp	/^void Trie::traverse_directory(){$/;"	f	class:Trie
+ui	mainwindow.h	/^		Ui::MainWindow *ui;$/;"	m	class:MainWindow
+unix	moc_predefs.h	200;"	d
+update	ui_mainwindow.h	/^    QPushButton *update;$/;"	m	class:Ui_MainWindow
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow

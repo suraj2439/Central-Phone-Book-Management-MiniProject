@@ -6,6 +6,9 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 AR	Makefile	/^AR            = ar cqs$/;"	m
 BACKEND_H	backend.h	2;"	d
+BtnHistorySubmit	ui_mainwindow.h	/^    QPushButton *BtnHistorySubmit;$/;"	m	class:Ui_MainWindow
+BtnNextHistory	ui_mainwindow.h	/^    QPushButton *BtnNextHistory;$/;"	m	class:Ui_MainWindow
+BtnPrevHistory	ui_mainwindow.h	/^    QPushButton *BtnPrevHistory;$/;"	m	class:Ui_MainWindow
 CC	Makefile	/^CC            = gcc$/;"	m
 CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFINES)$/;"	m
 CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
@@ -18,36 +21,39 @@ CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(DEFI
 DEFINES	Makefile	/^DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB$/;"	m
 DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
 DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
-DEL_NO	backend.h	18;"	d
+DEL_NO	backend.h	21;"	d
 DESTDIR	Makefile	/^DESTDIR       = $/;"	m
 DIST	Makefile	/^DIST          = \/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/features\/spec_pre.prf \\$/;"	m
 DISTDIR	Makefile	/^DISTDIR = \/home\/suraj\/phone\/.tmp\/phone1.0.0$/;"	m
 DISTNAME	Makefile	/^DISTNAME      = phone1.0.0$/;"	m
 EQ	Makefile	/^EQ            = =$/;"	m
-FIRST_DIGIT	backend.h	15;"	d
+FIRST_DIGIT	backend.h	18;"	d
 Generator	backend.cpp	/^Generator :: Generator(){ $/;"	f	class:Generator
 Generator	backend.h	/^class Generator {$/;"	c
 History	backend.cpp	/^History :: History() { $/;"	f	class:History
 History	backend.h	/^class History {$/;"	c
 INCPATH	Makefile	/^INCPATH       = -I. -I. -isystem \/usr\/include\/x86_64-linux-gnu\/qt5 -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtWidgets -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtGui -isystem \/usr\/include\/x86_64-linux-gnu\/qt5\/QtCore -I. -I. -I\/usr\/lib\/x86_64-linux-gnu\/qt5\/mkspecs\/linux-g++$/;"	m
-INSERT_NO	backend.h	16;"	d
+INSERT_NO	backend.h	19;"	d
 INSTALL_DIR	Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
 INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
 INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
-LANDLINE_NO	backend.h	13;"	d
+LANDLINE_NO	backend.h	17;"	d
 LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
 LIBS	Makefile	/^LIBS          = $(SUBLIBS) \/usr\/lib\/x86_64-linux-gnu\/libQt5Widgets.so \/usr\/lib\/x86_64-linux-gnu\/libQt5Gui.so \/usr\/lib\/x86_64-linux-gnu\/libQt5Core.so \/usr\/lib\/x86_64-linux-gnu\/libGL.so -lpthread   $/;"	m
 LINK	Makefile	/^LINK          = g++$/;"	m
+Load_Data_in_file	backend.cpp	/^void Trie::Load_Data_in_file( ){$/;"	f	class:Trie
+Load_Directory	backend.cpp	/^void Trie::Load_Directory(){$/;"	f	class:Trie
 MAINWINDOW_H	mainwindow.h	2;"	d
 MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MAX_SUBSTRING	backend.h	22;"	d
 MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
-MOBILE_NO	backend.h	14;"	d
+MOBILE_NO	backend.h	16;"	d
 MOVE	Makefile	/^MOVE          = mv -f$/;"	m
 MainPage	ui_mainwindow.h	/^    QWidget *MainPage;$/;"	m	class:Ui_MainWindow
 MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget *parent)$/;"	f	class:MainWindow
 MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow, public History {$/;"	c
 MainWindow	ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
-NORMAL	backend.h	11;"	d
+NORMAL	backend.h	14;"	d
 OBJECTS	Makefile	/^OBJECTS       = backend.o \\$/;"	m
 OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
 PageAddNo	ui_mainwindow.h	/^    QWidget *PageAddNo;$/;"	m	class:Ui_MainWindow
@@ -59,8 +65,8 @@ QINSTALL	Makefile	/^QINSTALL      = \/usr\/lib\/qt5\/bin\/qmake -install qinstal
 QINSTALL_PROGRAM	Makefile	/^QINSTALL_PROGRAM = \/usr\/lib\/qt5\/bin\/qmake -install qinstall -exe$/;"	m
 QMAKE	Makefile	/^QMAKE         = \/usr\/lib\/qt5\/bin\/qmake$/;"	m
 QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = phone$/;"	m
+QT_MOC_LITERAL	moc_mainwindow.cpp	113;"	d	file:
 QT_MOC_LITERAL	moc_mainwindow.cpp	27;"	d	file:
-QT_MOC_LITERAL	moc_mainwindow.cpp	63;"	d	file:
 RANLIB	Makefile	/^RANLIB        = $/;"	m
 SED	Makefile	/^SED           = sed$/;"	m
 SOURCES	Makefile	/^SOURCES       = backend.cpp \\$/;"	m
@@ -69,13 +75,14 @@ SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
 TAR	Makefile	/^TAR           = tar -cf$/;"	m
 TARGET	Makefile	/^TARGET        = phone$/;"	m
 Trie	backend.cpp	/^Trie::Trie() {$/;"	f	class:Trie
-Trie	backend.h	/^class Trie{$/;"	c
+Trie	backend.h	/^class Trie {$/;"	c
 UI_MAINWINDOW_H	ui_mainwindow.h	10;"	d
-UPDATE_INFO	backend.h	17;"	d
+UPDATE_INFO	backend.h	20;"	d
 Ui	mainwindow.h	/^namespace Ui { class MainWindow; }$/;"	n
 Ui	ui_mainwindow.h	/^namespace Ui {$/;"	n
 Ui_MainWindow	ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
-VIP	backend.h	12;"	d
+VIP	backend.h	15;"	d
+Validator	backend.h	/^class Validator {$/;"	c
 _FORTIFY_SOURCE	moc_predefs.h	77;"	d
 _GNU_SOURCE	moc_predefs.h	381;"	d
 _LP64	moc_predefs.h	308;"	d
@@ -457,52 +464,102 @@ __unix	moc_predefs.h	61;"	d
 __unix__	moc_predefs.h	30;"	d
 __x86_64	moc_predefs.h	35;"	d
 __x86_64__	moc_predefs.h	220;"	d
+aadharHome	ui_mainwindow.h	/^    QTextBrowser *aadharHome;$/;"	m	class:Ui_MainWindow
+aadharNo	backend.h	/^	std::string aadharNo;$/;"	m	struct:info
+aadharNo	ui_mainwindow.h	/^    QTextEdit *aadharNo;$/;"	m	class:Ui_MainWindow
+aadhar_get	ui_mainwindow.h	/^    QTextBrowser *aadhar_get;$/;"	m	class:Ui_MainWindow
+aadhar_update	ui_mainwindow.h	/^    QLineEdit *aadhar_update;$/;"	m	class:Ui_MainWindow
 addNoSubmit	ui_mainwindow.h	/^    QPushButton *addNoSubmit;$/;"	m	class:Ui_MainWindow
 addno	ui_mainwindow.h	/^    QPushButton *addno;$/;"	m	class:Ui_MainWindow
+address	backend.h	/^	std::string address;$/;"	m	struct:info
+address	ui_mainwindow.h	/^    QTextEdit *address;$/;"	m	class:Ui_MainWindow
+addressHome	ui_mainwindow.h	/^    QTextBrowser *addressHome;$/;"	m	class:Ui_MainWindow
+address_get	ui_mainwindow.h	/^    QTextBrowser *address_get;$/;"	m	class:Ui_MainWindow
+address_update	ui_mainwindow.h	/^    QTextEdit *address_update;$/;"	m	class:Ui_MainWindow
 base_time	backend.h	/^                time_t base_time;$/;"	m	class:History
 binary_search	backend.cpp	/^int History :: binary_search(std :: vector<hstry> his, time_t time) {$/;"	f	class:History
+btn_HomeNext	ui_mainwindow.h	/^    QPushButton *btn_HomeNext;$/;"	m	class:Ui_MainWindow
+btn_HomePrev	ui_mainwindow.h	/^    QPushButton *btn_HomePrev;$/;"	m	class:Ui_MainWindow
+btn_delSubmit	ui_mainwindow.h	/^    QPushButton *btn_delSubmit;$/;"	m	class:Ui_MainWindow
+btn_getInfoNext	ui_mainwindow.h	/^    QPushButton *btn_getInfoNext;$/;"	m	class:Ui_MainWindow
+btn_getInfoPrev	ui_mainwindow.h	/^    QPushButton *btn_getInfoPrev;$/;"	m	class:Ui_MainWindow
 centralwidget	ui_mainwindow.h	/^    QWidget *centralwidget;$/;"	m	class:Ui_MainWindow
 ch	backend.h	/^		char ch;$/;"	m	class:node
 ch	backend.h	/^		int ch;$/;"	m	class:leaf_node
+check_substring	backend.cpp	/^void check_substring(node *nn,std::string number, std::vector<std::vector <char>> *v){$/;"	f
 child	backend.h	/^		node *parent, *child[10];$/;"	m	class:node
-comboBox_2	ui_mainwindow.h	/^    QComboBox *comboBox_2;$/;"	m	class:Ui_MainWindow
-comboBox_3	ui_mainwindow.h	/^    QComboBox *comboBox_3;$/;"	m	class:Ui_MainWindow
+code	ui_mainwindow.h	/^    QTextEdit *code;$/;"	m	class:Ui_MainWindow
+code_Name	ui_mainwindow.h	/^    QTextEdit *code_Name;$/;"	m	class:Ui_MainWindow
+codes	backend.h	/^		std::unordered_map<std::string, std::pair<char, std::string>> codes;$/;"	m	class:Trie
 company	backend.h	/^	std::string company;$/;"	m	struct:info
+company	ui_mainwindow.h	/^    QTextEdit *company;$/;"	m	class:Ui_MainWindow
+companyHome	ui_mainwindow.h	/^    QTextBrowser *companyHome;$/;"	m	class:Ui_MainWindow
+company_get	ui_mainwindow.h	/^    QTextBrowser *company_get;$/;"	m	class:Ui_MainWindow
+company_update	ui_mainwindow.h	/^    QLineEdit *company_update;$/;"	m	class:Ui_MainWindow
+contactNo	ui_mainwindow.h	/^    QTextBrowser *contactNo;$/;"	m	class:Ui_MainWindow
+contactNo_get	ui_mainwindow.h	/^    QTextBrowser *contactNo_get;$/;"	m	class:Ui_MainWindow
+count	backend.h	/^		int count;$/;"	m	class:Trie
 count	backend.h	/^		static int count;$/;"	m	class:leaf_node
-data	moc_mainwindow.cpp	/^    QByteArrayData data[16];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
-delete_number	backend.cpp	/^void Trie::delete_number(std::string num) {$/;"	f	class:Trie
+countryHome	ui_mainwindow.h	/^    QTextBrowser *countryHome;$/;"	m	class:Ui_MainWindow
+country_code	backend.h	/^	short int country_code;$/;"	m	struct:info
+country_get	ui_mainwindow.h	/^    QTextBrowser *country_get;$/;"	m	class:Ui_MainWindow
+country_update	ui_mainwindow.h	/^    QLineEdit *country_update;$/;"	m	class:Ui_MainWindow
+data	moc_mainwindow.cpp	/^    QByteArrayData data[44];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
+delNoCode	ui_mainwindow.h	/^    QLineEdit *delNoCode;$/;"	m	class:Ui_MainWindow
+delNoStatus	ui_mainwindow.h	/^    QTextBrowser *delNoStatus;$/;"	m	class:Ui_MainWindow
+delNumber	ui_mainwindow.h	/^    QLineEdit *delNumber;$/;"	m	class:Ui_MainWindow
+delete_number	backend.cpp	/^void Trie::delete_number(std::string num,short int cont_code) {$/;"	f	class:Trie
 delno	ui_mainwindow.h	/^    QPushButton *delno;$/;"	m	class:Ui_MainWindow
+display_number_via_substring	backend.cpp	/^std::vector<std::string> Trie::display_number_via_substring(std::string to_check){$/;"	f	class:Trie
 email	backend.h	/^	std::string email;$/;"	m	struct:info
-fill_vector	backend.cpp	/^void fill_vector(node *nn,vector<char> v){$/;"	f
+fill_vector	backend.cpp	/^void fill_vector(node *nn,std::vector<char> v,std::vector<std::vector<char>> *number){$/;"	f
 generate_number	backend.cpp	/^std :: string Generator :: generate_number(int type, int country_or_area_code) {$/;"	f	class:Generator
-generate_number	backend.cpp	/^std :: string Generator :: generate_number(int type, int country_or_area_code, int size, int vip) {$/;"	f	class:Generator
-get_history	mainwindow.cpp	/^std::vector<hstry> MainWindow::get_history() {$/;"	f	class:MainWindow
-get_info	backend.cpp	/^info* Trie::get_info(std::string num) {$/;"	f	class:Trie
-get_info_one	backend.cpp	/^std::string Trie::get_info_one(std::string num, int mode) {$/;"	f	class:Trie
+generate_number	backend.cpp	/^std :: string Generator :: generate_number(int type, int country_or_area_code, int size, std::string vip) {$/;"	f	class:Generator
+getInfoPageNo	ui_mainwindow.h	/^    QLabel *getInfoPageNo;$/;"	m	class:Ui_MainWindow
+getInfoTablePageNo	backend.h	/^        int getInfoTablePageNo;$/;"	m	class:Trie
+getInfo_table	ui_mainwindow.h	/^    QTableWidget *getInfo_table;$/;"	m	class:Ui_MainWindow
+get_code_info	backend.cpp	/^std::string Trie::get_code_info(std::string code) {$/;"	f	class:Trie
+get_code_key	backend.cpp	/^char Trie::get_code_key(std::string code) {$/;"	f	class:Trie
+get_code_key	backend.cpp	/^std::string Trie::get_code_key(char code) {$/;"	f	class:Trie
+get_history	backend.cpp	/^History Trie::get_history() {$/;"	f	class:Trie
+get_history	mainwindow.cpp	/^History MainWindow::get_history() {$/;"	f	class:MainWindow
+get_historyPageNo	backend.cpp	/^int History::get_historyPageNo() {$/;"	f	class:History
+get_homeTablePageNo	backend.cpp	/^int Trie::get_homeTablePageNo() {$/;"	f	class:Trie
+get_info	backend.cpp	/^info* Trie::get_info(std::string num, int cont_code) {$/;"	f	class:Trie
+get_infoTablePageNo	backend.cpp	/^int Trie::get_infoTablePageNo() {$/;"	f	class:Trie
+get_login_id	mainwindow.cpp	/^std::string MainWindow::get_login_id() {$/;"	f	class:MainWindow
+get_login_password	mainwindow.cpp	/^std::string MainWindow::get_login_password() {$/;"	f	class:MainWindow
 get_phonebook	mainwindow.cpp	/^Trie MainWindow::get_phonebook() {$/;"	f	class:MainWindow
 get_time	backend.cpp	/^time_t History :: get_time() {$/;"	f	class:History
 getinfo	ui_mainwindow.h	/^    QPushButton *getinfo;$/;"	m	class:Ui_MainWindow
 getrandomdigit	backend.cpp	/^char Generator :: getrandomdigit() {$/;"	f	class:Generator
 getrandomdigit	backend.cpp	/^char Generator :: getrandomdigit(int flag) {$/;"	f	class:Generator
-go_to_end	backend.cpp	/^void go_to_end(node *nn){$/;"	f
+go_to_end	backend.cpp	/^void go_to_end(node *nn,std::vector<std::vector <char>> *v){$/;"	f
+history	backend.h	/^		History *history;$/;"	m	class:Trie
 history	backend.h	/^                std :: vector<hstry> history;$/;"	m	class:History
-history	mainwindow.h	/^		History *history;$/;"	m	class:MainWindow
 history	ui_mainwindow.h	/^    QPushButton *history;$/;"	m	class:Ui_MainWindow
+historyPageNo	backend.h	/^                int historyPageNo;$/;"	m	class:History
+historyTable	ui_mainwindow.h	/^    QTableWidget *historyTable;$/;"	m	class:Ui_MainWindow
+homePageNo	ui_mainwindow.h	/^    QLabel *homePageNo;$/;"	m	class:Ui_MainWindow
+homePage_update	ui_mainwindow.h	/^    QPushButton *homePage_update;$/;"	m	class:Ui_MainWindow
+homeTablePageNo	backend.h	/^        int homeTablePageNo;$/;"	m	class:Trie
 hstry	backend.h	/^typedef struct hstry {$/;"	s
 hstry	backend.h	/^} hstry;$/;"	t	typeref:struct:hstry
-inf	backend.h	/^		info *inf;$/;"	m	class:node
+inf	backend.h	/^	std::vector<info>inf;	$/;"	m	class:node
 info	backend.h	/^typedef struct info {$/;"	s
 info	backend.h	/^}info;$/;"	t	typeref:struct:info
+infoSearch	ui_mainwindow.h	/^    QLineEdit *infoSearch;$/;"	m	class:Ui_MainWindow
 info_H	backend.h	/^        info *info_H;$/;"	m	struct:hstry
 init_leaf_node	backend.cpp	/^void leaf_node::init_leaf_node() {$/;"	f	class:leaf_node
 init_node	backend.cpp	/^void node::init_node() {$/;"	f	class:node
-insert_info	backend.cpp	/^void Trie::insert_info(std::string num,info* information) {$/;"	f	class:Trie
-insert_number	backend.cpp	/^void Trie::insert_number(std::string number) {$/;"	f	class:Trie
-isAadhar	backend.cpp	/^bool isAadhar(string s)$/;"	f
-isName	backend.cpp	/^bool isName(string s)$/;"	f
-isNumber	backend.cpp	/^bool isNumber(string s)$/;"	f
-is_present	backend.cpp	/^int Trie::is_present(std::string num) {$/;"	f	class:Trie
+insert_number	backend.cpp	/^void Trie::insert_number(std::string number, info *information) {$/;"	f	class:Trie
+isAadhar	backend.cpp	/^bool Validator::isAadhar(std::string s) {$/;"	f	class:Validator
+isName	backend.cpp	/^bool Validator::isName(std::string s) {$/;"	f	class:Validator
+isNumber	backend.cpp	/^bool Validator::isNumber(std::string s) {$/;"	f	class:Validator
+isPhoneNumber	backend.cpp	/^bool Validator::isPhoneNumber(std::string s) {$/;"	f	class:Validator
+is_present	backend.cpp	/^int Trie::is_present(std::string num,short int cont_code) {$/;"	f	class:Trie
 label	ui_mainwindow.h	/^    QLabel *label;$/;"	m	class:Ui_MainWindow
+labelTime	ui_mainwindow.h	/^    QLabel *labelTime;$/;"	m	class:Ui_MainWindow
 label_10	ui_mainwindow.h	/^    QLabel *label_10;$/;"	m	class:Ui_MainWindow
 label_11	ui_mainwindow.h	/^    QLabel *label_11;$/;"	m	class:Ui_MainWindow
 label_12	ui_mainwindow.h	/^    QLabel *label_12;$/;"	m	class:Ui_MainWindow
@@ -518,12 +575,9 @@ label_20	ui_mainwindow.h	/^    QLabel *label_20;$/;"	m	class:Ui_MainWindow
 label_21	ui_mainwindow.h	/^    QLabel *label_21;$/;"	m	class:Ui_MainWindow
 label_22	ui_mainwindow.h	/^    QLabel *label_22;$/;"	m	class:Ui_MainWindow
 label_23	ui_mainwindow.h	/^    QLabel *label_23;$/;"	m	class:Ui_MainWindow
-label_24	ui_mainwindow.h	/^    QLabel *label_24;$/;"	m	class:Ui_MainWindow
-label_25	ui_mainwindow.h	/^    QLabel *label_25;$/;"	m	class:Ui_MainWindow
 label_26	ui_mainwindow.h	/^    QLabel *label_26;$/;"	m	class:Ui_MainWindow
 label_27	ui_mainwindow.h	/^    QLabel *label_27;$/;"	m	class:Ui_MainWindow
 label_28	ui_mainwindow.h	/^    QLabel *label_28;$/;"	m	class:Ui_MainWindow
-label_29	ui_mainwindow.h	/^    QLabel *label_29;$/;"	m	class:Ui_MainWindow
 label_3	ui_mainwindow.h	/^    QLabel *label_3;$/;"	m	class:Ui_MainWindow
 label_30	ui_mainwindow.h	/^    QLabel *label_30;$/;"	m	class:Ui_MainWindow
 label_31	ui_mainwindow.h	/^    QLabel *label_31;$/;"	m	class:Ui_MainWindow
@@ -533,108 +587,163 @@ label_34	ui_mainwindow.h	/^    QLabel *label_34;$/;"	m	class:Ui_MainWindow
 label_35	ui_mainwindow.h	/^    QLabel *label_35;$/;"	m	class:Ui_MainWindow
 label_36	ui_mainwindow.h	/^    QLabel *label_36;$/;"	m	class:Ui_MainWindow
 label_37	ui_mainwindow.h	/^    QLabel *label_37;$/;"	m	class:Ui_MainWindow
+label_38	ui_mainwindow.h	/^    QLabel *label_38;$/;"	m	class:Ui_MainWindow
+label_39	ui_mainwindow.h	/^    QLabel *label_39;$/;"	m	class:Ui_MainWindow
 label_4	ui_mainwindow.h	/^    QLabel *label_4;$/;"	m	class:Ui_MainWindow
+label_40	ui_mainwindow.h	/^    QLabel *label_40;$/;"	m	class:Ui_MainWindow
+label_41	ui_mainwindow.h	/^    QLabel *label_41;$/;"	m	class:Ui_MainWindow
+label_42	ui_mainwindow.h	/^    QLabel *label_42;$/;"	m	class:Ui_MainWindow
+label_43	ui_mainwindow.h	/^    QLabel *label_43;$/;"	m	class:Ui_MainWindow
+label_44	ui_mainwindow.h	/^    QLabel *label_44;$/;"	m	class:Ui_MainWindow
+label_45	ui_mainwindow.h	/^    QLabel *label_45;$/;"	m	class:Ui_MainWindow
+label_46	ui_mainwindow.h	/^    QLabel *label_46;$/;"	m	class:Ui_MainWindow
+label_47	ui_mainwindow.h	/^    QLabel *label_47;$/;"	m	class:Ui_MainWindow
+label_48	ui_mainwindow.h	/^    QLabel *label_48;$/;"	m	class:Ui_MainWindow
+label_49	ui_mainwindow.h	/^    QLabel *label_49;$/;"	m	class:Ui_MainWindow
 label_5	ui_mainwindow.h	/^    QLabel *label_5;$/;"	m	class:Ui_MainWindow
+label_50	ui_mainwindow.h	/^    QLabel *label_50;$/;"	m	class:Ui_MainWindow
+label_51	ui_mainwindow.h	/^    QLabel *label_51;$/;"	m	class:Ui_MainWindow
+label_52	ui_mainwindow.h	/^    QLabel *label_52;$/;"	m	class:Ui_MainWindow
+label_53	ui_mainwindow.h	/^    QLabel *label_53;$/;"	m	class:Ui_MainWindow
+label_54	ui_mainwindow.h	/^    QLabel *label_54;$/;"	m	class:Ui_MainWindow
+label_55	ui_mainwindow.h	/^    QLabel *label_55;$/;"	m	class:Ui_MainWindow
+label_56	ui_mainwindow.h	/^    QLabel *label_56;$/;"	m	class:Ui_MainWindow
+label_57	ui_mainwindow.h	/^    QLabel *label_57;$/;"	m	class:Ui_MainWindow
+label_58	ui_mainwindow.h	/^    QLabel *label_58;$/;"	m	class:Ui_MainWindow
+label_59	ui_mainwindow.h	/^    QLabel *label_59;$/;"	m	class:Ui_MainWindow
 label_6	ui_mainwindow.h	/^    QLabel *label_6;$/;"	m	class:Ui_MainWindow
 label_7	ui_mainwindow.h	/^    QLabel *label_7;$/;"	m	class:Ui_MainWindow
 label_8	ui_mainwindow.h	/^    QLabel *label_8;$/;"	m	class:Ui_MainWindow
 label_9	ui_mainwindow.h	/^    QLabel *label_9;$/;"	m	class:Ui_MainWindow
+label_N	ui_mainwindow.h	/^    QLabel *label_N;$/;"	m	class:Ui_MainWindow
+label_code	ui_mainwindow.h	/^    QLabel *label_code;$/;"	m	class:Ui_MainWindow
+label_codeName	ui_mainwindow.h	/^    QLabel *label_codeName;$/;"	m	class:Ui_MainWindow
 label_img	ui_mainwindow.h	/^    QLabel *label_img;$/;"	m	class:Ui_MainWindow
+label_pageNo	ui_mainwindow.h	/^    QLabel *label_pageNo;$/;"	m	class:Ui_MainWindow
+label_totalEntries	ui_mainwindow.h	/^    QLabel *label_totalEntries;$/;"	m	class:Ui_MainWindow
+label_updateCode	ui_mainwindow.h	/^    QLabel *label_updateCode;$/;"	m	class:Ui_MainWindow
 leaf_node	backend.h	/^class leaf_node: public node{$/;"	c
-lineEdit	ui_mainwindow.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_MainWindow
-lineEdit_2	ui_mainwindow.h	/^    QLineEdit *lineEdit_2;$/;"	m	class:Ui_MainWindow
-lineEdit_3	ui_mainwindow.h	/^    QLineEdit *lineEdit_3;$/;"	m	class:Ui_MainWindow
-lineEdit_4	ui_mainwindow.h	/^    QLineEdit *lineEdit_4;$/;"	m	class:Ui_MainWindow
-lineEdit_5	ui_mainwindow.h	/^    QLineEdit *lineEdit_5;$/;"	m	class:Ui_MainWindow
-lineEdit_6	ui_mainwindow.h	/^    QLineEdit *lineEdit_6;$/;"	m	class:Ui_MainWindow
 linux	moc_predefs.h	256;"	d
+log_intoPage	mainwindow.h	/^        int log_intoPage;$/;"	m	class:MainWindow
+loginInfo_update	ui_mainwindow.h	/^    QPushButton *loginInfo_update;$/;"	m	class:Ui_MainWindow
+loginUpdate_submit	ui_mainwindow.h	/^    QPushButton *loginUpdate_submit;$/;"	m	class:Ui_MainWindow
+login_id	mainwindow.h	/^        std::string login_id;$/;"	m	class:MainWindow
+login_password	mainwindow.h	/^        std::string login_password;$/;"	m	class:MainWindow
+login_pswd	ui_mainwindow.h	/^    QLineEdit *login_pswd;$/;"	m	class:Ui_MainWindow
+login_pswd_new	ui_mainwindow.h	/^    QLineEdit *login_pswd_new;$/;"	m	class:Ui_MainWindow
+login_submit	ui_mainwindow.h	/^    QPushButton *login_submit;$/;"	m	class:Ui_MainWindow
+login_userId	ui_mainwindow.h	/^    QLineEdit *login_userId;$/;"	m	class:Ui_MainWindow
+login_userId_new	ui_mainwindow.h	/^    QLineEdit *login_userId_new;$/;"	m	class:Ui_MainWindow
+lowerTime	ui_mainwindow.h	/^    QLineEdit *lowerTime;$/;"	m	class:Ui_MainWindow
 main	main.cpp	/^int main(int argc, char *argv[]) {$/;"	f
 main_table	ui_mainwindow.h	/^    QTableWidget *main_table;$/;"	m	class:Ui_MainWindow
 menubar	ui_mainwindow.h	/^    QMenuBar *menubar;$/;"	m	class:Ui_MainWindow
 metaObject	moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+msg	ui_mainwindow.h	/^    QTextBrowser *msg;$/;"	m	class:Ui_MainWindow
 name	backend.h	/^	std::string name;$/;"	m	struct:info
+name	ui_mainwindow.h	/^    QTextEdit *name;$/;"	m	class:Ui_MainWindow
+nameHome	ui_mainwindow.h	/^    QTextBrowser *nameHome;$/;"	m	class:Ui_MainWindow
+name_get	ui_mainwindow.h	/^    QTextBrowser *name_get;$/;"	m	class:Ui_MainWindow
+name_update	ui_mainwindow.h	/^    QLineEdit *name_update;$/;"	m	class:Ui_MainWindow
 noType	ui_mainwindow.h	/^    QComboBox *noType;$/;"	m	class:Ui_MainWindow
 node	backend.h	/^class node{$/;"	c
 num	backend.h	/^	std :: string num;$/;"	m	struct:hstry
-number	backend.cpp	/^vector<string> number;$/;"	v
-number_all	backend.cpp	/^vector<char> number_all[1000];$/;"	v
-number_count	backend.cpp	/^int number_count = 0;$/;"	v
+on_BtnHistorySubmit_clicked	mainwindow.cpp	/^void MainWindow::on_BtnHistorySubmit_clicked()$/;"	f	class:MainWindow
+on_BtnNextHistory_clicked	mainwindow.cpp	/^void MainWindow::on_BtnNextHistory_clicked()$/;"	f	class:MainWindow
+on_BtnPrevHistory_clicked	mainwindow.cpp	/^void MainWindow::on_BtnPrevHistory_clicked()$/;"	f	class:MainWindow
 on_addNoSubmit_clicked	mainwindow.cpp	/^void MainWindow::on_addNoSubmit_clicked()$/;"	f	class:MainWindow
 on_addno_clicked	mainwindow.cpp	/^void MainWindow::on_addno_clicked()$/;"	f	class:MainWindow
+on_btn_HomeNext_clicked	mainwindow.cpp	/^void MainWindow::on_btn_HomeNext_clicked()$/;"	f	class:MainWindow
+on_btn_HomePrev_clicked	mainwindow.cpp	/^void MainWindow::on_btn_HomePrev_clicked()$/;"	f	class:MainWindow
+on_btn_delSubmit_clicked	mainwindow.cpp	/^void MainWindow::on_btn_delSubmit_clicked()$/;"	f	class:MainWindow
+on_btn_getInfoNext_clicked	mainwindow.cpp	/^void MainWindow::on_btn_getInfoNext_clicked()$/;"	f	class:MainWindow
+on_btn_getInfoPrev_clicked	mainwindow.cpp	/^void MainWindow::on_btn_getInfoPrev_clicked()$/;"	f	class:MainWindow
+on_delNoCode_textChanged	mainwindow.cpp	/^void MainWindow::on_delNoCode_textChanged(const QString &code_inp)$/;"	f	class:MainWindow
+on_delNumber_textChanged	mainwindow.cpp	/^void MainWindow::on_delNumber_textChanged(const QString &num)$/;"	f	class:MainWindow
 on_delno_clicked	mainwindow.cpp	/^void MainWindow::on_delno_clicked()$/;"	f	class:MainWindow
+on_getInfo_table_cellClicked	mainwindow.cpp	/^void MainWindow::on_getInfo_table_cellClicked(int row, int column)$/;"	f	class:MainWindow
 on_getinfo_clicked	mainwindow.cpp	/^void MainWindow::on_getinfo_clicked()$/;"	f	class:MainWindow
 on_history_clicked	mainwindow.cpp	/^void MainWindow::on_history_clicked()$/;"	f	class:MainWindow
+on_infoSearch_textChanged	mainwindow.cpp	/^void MainWindow::on_infoSearch_textChanged(const QString &num)$/;"	f	class:MainWindow
+on_loginInfo_update_clicked	mainwindow.cpp	/^void MainWindow::on_loginInfo_update_clicked()$/;"	f	class:MainWindow
+on_loginUpdate_submit_clicked	mainwindow.cpp	/^void MainWindow::on_loginUpdate_submit_clicked()$/;"	f	class:MainWindow
+on_login_submit_clicked	mainwindow.cpp	/^void MainWindow::on_login_submit_clicked()$/;"	f	class:MainWindow
+on_main_table_cellClicked	mainwindow.cpp	/^void MainWindow::on_main_table_cellClicked(int row, int column)$/;"	f	class:MainWindow
+on_noType_currentIndexChanged	mainwindow.cpp	/^void MainWindow::on_noType_currentIndexChanged(int index)$/;"	f	class:MainWindow
 on_pushButton_14_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_14_clicked()$/;"	f	class:MainWindow
 on_pushButton_15_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_15_clicked()$/;"	f	class:MainWindow
 on_pushButton_16_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_16_clicked()$/;"	f	class:MainWindow
 on_pushButton_17_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_17_clicked()$/;"	f	class:MainWindow
 on_pushButton_18_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_18_clicked()$/;"	f	class:MainWindow
-on_tableWidget_cellClicked	mainwindow.cpp	/^void MainWindow::on_tableWidget_cellClicked(int row, int column)$/;"	f	class:MainWindow
+on_pushButton_19_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_19_clicked()$/;"	f	class:MainWindow
+on_pushButton_20_clicked	mainwindow.cpp	/^void MainWindow::on_pushButton_20_clicked()$/;"	f	class:MainWindow
+on_retriveType_currentIndexChanged	mainwindow.cpp	/^void MainWindow::on_retriveType_currentIndexChanged(int index)$/;"	f	class:MainWindow
+on_searchCode_update_textChanged	mainwindow.cpp	/^void MainWindow::on_searchCode_update_textChanged(const QString &country_code)$/;"	f	class:MainWindow
+on_searchNo_update_textChanged	mainwindow.cpp	/^void MainWindow::on_searchNo_update_textChanged(const QString &num)$/;"	f	class:MainWindow
+on_submit_update_clicked	mainwindow.cpp	/^void MainWindow::on_submit_update_clicked()$/;"	f	class:MainWindow
 on_update_clicked	mainwindow.cpp	/^void MainWindow::on_update_clicked()$/;"	f	class:MainWindow
 operation	backend.h	/^        int operation;$/;"	m	struct:hstry
+page	ui_mainwindow.h	/^    QWidget *page;$/;"	m	class:Ui_MainWindow
+page_2	ui_mainwindow.h	/^    QWidget *page_2;$/;"	m	class:Ui_MainWindow
 parent	backend.h	/^		node *parent, *child[10];$/;"	m	class:node
 parent	backend.h	/^		node *parent;$/;"	m	class:leaf_node
 phonebook	mainwindow.h	/^		Trie *phonebook;$/;"	m	class:MainWindow
 print	backend.cpp	/^void History :: print() {$/;"	f	class:History
-pushButton_10	ui_mainwindow.h	/^    QPushButton *pushButton_10;$/;"	m	class:Ui_MainWindow
-pushButton_11	ui_mainwindow.h	/^    QPushButton *pushButton_11;$/;"	m	class:Ui_MainWindow
-pushButton_12	ui_mainwindow.h	/^    QPushButton *pushButton_12;$/;"	m	class:Ui_MainWindow
-pushButton_13	ui_mainwindow.h	/^    QPushButton *pushButton_13;$/;"	m	class:Ui_MainWindow
+printHistoryTable	mainwindow.cpp	/^void MainWindow::printHistoryTable() {$/;"	f	class:MainWindow
+print_getInfoTable	mainwindow.cpp	/^void MainWindow::print_getInfoTable() {$/;"	f	class:MainWindow
+print_homeTable	mainwindow.cpp	/^void MainWindow::print_homeTable() {$/;"	f	class:MainWindow
 pushButton_14	ui_mainwindow.h	/^    QPushButton *pushButton_14;$/;"	m	class:Ui_MainWindow
 pushButton_15	ui_mainwindow.h	/^    QPushButton *pushButton_15;$/;"	m	class:Ui_MainWindow
 pushButton_16	ui_mainwindow.h	/^    QPushButton *pushButton_16;$/;"	m	class:Ui_MainWindow
 pushButton_17	ui_mainwindow.h	/^    QPushButton *pushButton_17;$/;"	m	class:Ui_MainWindow
 pushButton_18	ui_mainwindow.h	/^    QPushButton *pushButton_18;$/;"	m	class:Ui_MainWindow
-pushButton_5	ui_mainwindow.h	/^    QPushButton *pushButton_5;$/;"	m	class:Ui_MainWindow
-pushButton_6	ui_mainwindow.h	/^    QPushButton *pushButton_6;$/;"	m	class:Ui_MainWindow
-pushButton_9	ui_mainwindow.h	/^    QPushButton *pushButton_9;$/;"	m	class:Ui_MainWindow
+pushButton_19	ui_mainwindow.h	/^    QPushButton *pushButton_19;$/;"	m	class:Ui_MainWindow
+pushButton_20	ui_mainwindow.h	/^    QPushButton *pushButton_20;$/;"	m	class:Ui_MainWindow
 qt_meta_data_MainWindow	moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
 qt_meta_stringdata_MainWindow	moc_mainwindow.cpp	/^static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_MainWindow = {$/;"	v	file:
 qt_meta_stringdata_MainWindow_t	moc_mainwindow.cpp	/^struct qt_meta_stringdata_MainWindow_t {$/;"	s	file:
 qt_metacall	moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
 qt_metacast	moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
 qt_static_metacall	moc_mainwindow.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+reconfirmCode	ui_mainwindow.h	/^    QLineEdit *reconfirmCode;$/;"	m	class:Ui_MainWindow
+reconfirmNo	ui_mainwindow.h	/^    QLineEdit *reconfirmNo;$/;"	m	class:Ui_MainWindow
 retranslateUi	ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
 retrive	backend.cpp	/^std :: vector<hstry> History :: retrive() {$/;"	f	class:History
 retrive	backend.cpp	/^std :: vector<hstry> History :: retrive(time_t time, int N) {$/;"	f	class:History
 retrive	backend.cpp	/^std :: vector<hstry> History :: retrive(time_t time1, time_t time2) {$/;"	f	class:History
+retriveType	ui_mainwindow.h	/^    QComboBox *retriveType;$/;"	m	class:Ui_MainWindow
 root	backend.h	/^		node *root;$/;"	m	class:Trie
+searchCode_update	ui_mainwindow.h	/^    QLineEdit *searchCode_update;$/;"	m	class:Ui_MainWindow
+searchNo_update	ui_mainwindow.h	/^    QLineEdit *searchNo_update;$/;"	m	class:Ui_MainWindow
+set_code_info	backend.cpp	/^void Trie::set_code_info(std::string code, std::string code_info) {$/;"	f	class:Trie
+set_getInfoTablePageNo	backend.cpp	/^void Trie::set_getInfoTablePageNo(int no) {$/;"	f	class:Trie
+set_historyPageNo	backend.cpp	/^void History::set_historyPageNo(int no) {$/;"	f	class:History
+set_homeTablePageNo	backend.cpp	/^void Trie::set_homeTablePageNo(int no) {$/;"	f	class:Trie
 setupUi	ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
 stackedWidget	ui_mainwindow.h	/^    QStackedWidget *stackedWidget;$/;"	m	class:Ui_MainWindow
 staticMetaObject	moc_mainwindow.cpp	/^QT_INIT_METAOBJECT const QMetaObject MainWindow::staticMetaObject = { {$/;"	m	class:MainWindow	file:
+status_update	ui_mainwindow.h	/^    QTextBrowser *status_update;$/;"	m	class:Ui_MainWindow
 statusbar	ui_mainwindow.h	/^    QStatusBar *statusbar;$/;"	m	class:Ui_MainWindow
 store_history	backend.cpp	/^void History :: store_history(std :: string num, int operation) {$/;"	f	class:History
 store_history	backend.cpp	/^void History :: store_history(std :: string num, int operation, info Inf) {$/;"	f	class:History
-store_vector_into_string	backend.cpp	/^void store_vector_into_string(){$/;"	f
-stringdata0	moc_mainwindow.cpp	/^    char stringdata0[288];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
+stringdata0	moc_mainwindow.cpp	/^    char stringdata0[956];$/;"	m	struct:qt_meta_stringdata_MainWindow_t	file:
+submit_update	ui_mainwindow.h	/^    QPushButton *submit_update;$/;"	m	class:Ui_MainWindow
 tableView	ui_mainwindow.h	/^    QTableView *tableView;$/;"	m	class:Ui_MainWindow
 tableView_2	ui_mainwindow.h	/^    QTableView *tableView_2;$/;"	m	class:Ui_MainWindow
 tableView_3	ui_mainwindow.h	/^    QTableView *tableView_3;$/;"	m	class:Ui_MainWindow
 tableView_4	ui_mainwindow.h	/^    QTableView *tableView_4;$/;"	m	class:Ui_MainWindow
-tableWidget	ui_mainwindow.h	/^    QTableWidget *tableWidget;$/;"	m	class:Ui_MainWindow
-tableWidget_2	ui_mainwindow.h	/^    QTableWidget *tableWidget_2;$/;"	m	class:Ui_MainWindow
-textBrowser	ui_mainwindow.h	/^    QTextBrowser *textBrowser;$/;"	m	class:Ui_MainWindow
-textBrowser_10	ui_mainwindow.h	/^    QTextBrowser *textBrowser_10;$/;"	m	class:Ui_MainWindow
-textBrowser_2	ui_mainwindow.h	/^    QTextBrowser *textBrowser_2;$/;"	m	class:Ui_MainWindow
-textBrowser_3	ui_mainwindow.h	/^    QTextBrowser *textBrowser_3;$/;"	m	class:Ui_MainWindow
-textBrowser_4	ui_mainwindow.h	/^    QTextBrowser *textBrowser_4;$/;"	m	class:Ui_MainWindow
-textBrowser_5	ui_mainwindow.h	/^    QTextBrowser *textBrowser_5;$/;"	m	class:Ui_MainWindow
-textBrowser_6	ui_mainwindow.h	/^    QTextBrowser *textBrowser_6;$/;"	m	class:Ui_MainWindow
-textBrowser_7	ui_mainwindow.h	/^    QTextBrowser *textBrowser_7;$/;"	m	class:Ui_MainWindow
-textBrowser_8	ui_mainwindow.h	/^    QTextBrowser *textBrowser_8;$/;"	m	class:Ui_MainWindow
-textBrowser_9	ui_mainwindow.h	/^    QTextBrowser *textBrowser_9;$/;"	m	class:Ui_MainWindow
-textEdit	ui_mainwindow.h	/^    QTextEdit *textEdit;$/;"	m	class:Ui_MainWindow
-textEdit_2	ui_mainwindow.h	/^    QTextEdit *textEdit_2;$/;"	m	class:Ui_MainWindow
-textEdit_3	ui_mainwindow.h	/^    QTextEdit *textEdit_3;$/;"	m	class:Ui_MainWindow
-textEdit_4	ui_mainwindow.h	/^    QTextEdit *textEdit_4;$/;"	m	class:Ui_MainWindow
-textEdit_5	ui_mainwindow.h	/^    QTextEdit *textEdit_5;$/;"	m	class:Ui_MainWindow
-textEdit_6	ui_mainwindow.h	/^    QTextEdit *textEdit_6;$/;"	m	class:Ui_MainWindow
-textEdit_7	ui_mainwindow.h	/^    QTextEdit *textEdit_7;$/;"	m	class:Ui_MainWindow
-textEdit_8	ui_mainwindow.h	/^    QTextEdit *textEdit_8;$/;"	m	class:Ui_MainWindow
-textEdit_9	ui_mainwindow.h	/^    QTextEdit *textEdit_9;$/;"	m	class:Ui_MainWindow
+tableView_5	ui_mainwindow.h	/^    QTableView *tableView_5;$/;"	m	class:Ui_MainWindow
+tableView_6	ui_mainwindow.h	/^    QTableView *tableView_6;$/;"	m	class:Ui_MainWindow
 time	backend.h	/^        time_t time;$/;"	m	struct:hstry
-traverse_directory	backend.cpp	/^void Trie::traverse_directory(){$/;"	f	class:Trie
+totContacts	ui_mainwindow.h	/^    QLabel *totContacts;$/;"	m	class:Ui_MainWindow
+totContacts_get	ui_mainwindow.h	/^    QLabel *totContacts_get;$/;"	m	class:Ui_MainWindow
+traverse_directory	backend.cpp	/^std::vector<string> Trie::traverse_directory(){$/;"	f	class:Trie
 ui	mainwindow.h	/^		Ui::MainWindow *ui;$/;"	m	class:MainWindow
 unix	moc_predefs.h	200;"	d
 update	ui_mainwindow.h	/^    QPushButton *update;$/;"	m	class:Ui_MainWindow
+update_homepage	mainwindow.cpp	/^void MainWindow::update_homepage()$/;"	f	class:MainWindow
+update_info	backend.cpp	/^int Trie::update_info(std::string num,info* information) {$/;"	f	class:Trie
+update_login_details	mainwindow.cpp	/^void MainWindow::update_login_details(std::string id, std::string password) {$/;"	f	class:MainWindow
+upperTimeOrN	ui_mainwindow.h	/^    QLineEdit *upperTimeOrN;$/;"	m	class:Ui_MainWindow
+vipDigits	ui_mainwindow.h	/^    QTextEdit *vipDigits;$/;"	m	class:Ui_MainWindow
 ~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow

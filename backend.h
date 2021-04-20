@@ -7,7 +7,9 @@
 #include <math.h>
 #include <string.h>
 #include <vector>
-
+#include <unordered_map>
+#include <fstream>
+#include <sstream>
 
 #define NORMAL          0
 #define VIP             1
@@ -24,6 +26,9 @@ typedef struct info {
 	std::string name;
 	std::string email;
 	std::string company;
+	std::string aadharNo;
+	std::string address;
+	short int country_code;
 }info;
 
 // struct to store history
@@ -41,17 +46,17 @@ class node{
 		node *parent, *child[10];
 	protected :
 		char ch;
-		info *inf;
 	public :
-	
+	std::vector<info>inf;	
 	void init_node();
 		
 	friend class Trie;
+	friend void check_substring(node *nn,std::string str,std::vector<std::vector <char>> *v);
 	friend void take_number_via_substring(node *nn, std::string c);
 	friend void take_prev(node *nn);
 	friend void take_fwd(node *nn);
-	friend void fill_vector(node *nn,std:: vector<char> v);
-	friend void go_to_end(node *nn);
+	friend void fill_vector(node *nn,std:: vector<char> v,std::vector<std::vector <char>> *v1);
+	friend void go_to_end(node *nn,std::vector<std::vector <char>> *v);
 };
 
 class leaf_node: public node{
@@ -59,8 +64,7 @@ class leaf_node: public node{
 		int ch;
 		node *parent;
 		static int count;
-	public:
-		
+	public:		
 		void init_leaf_node();
 		
  	friend class Trie;
@@ -82,8 +86,7 @@ class History {
                 // as data will be in sorted form due to non decreasing timestamp
                 int binary_search(std :: vector<hstry> his, time_t time);
 
-                public:
-
+       public:
                 // constructor use to init base_time to maintain history
                 History();
 
@@ -106,8 +109,8 @@ class History {
                 // func to retrive history between two time time1 and time2, time1 < time2
                 std :: vector<hstry> retrive(time_t time1, time_t time2);
 
-		void set_historyPageNo(int no);
-		int get_historyPageNo();
+                void set_historyPageNo(int no);
+                int get_historyPageNo();
 
                 void print();
 
@@ -118,17 +121,36 @@ class History {
 class Trie {
 	private:
 		History *history;
+        // used for gui
+        int homeTablePageNo;
+        int getInfoTablePageNo;
+		int count;
+		std::unordered_map<std::string, std::pair<char, std::string>> codes;
 		
 	public :	
 		Trie();
-		void insert_number(std::string num);
-		int is_present(std::string num);
-		void insert_info(std::string num,info* information);
+		void Load_Directory();
+		void Load_Data_in_file();
+		void insert_number(std::string num,info *information);
+		int is_present(std::string num,short int cont_code);
+		int update_info(std::string num,info* information);
 		std::string get_info_one(std::string num,int mode);
-		info* get_info(std::string num);
-		void delete_number(std::string num);
-		void traverse_directory();
+		info* get_info(std::string num, int cont_code);
+		void delete_number(std::string num,short int cont_code);
+		std::vector<std::string> traverse_directory();
+		std::vector<std::string> display_number_via_substring(std::string to_check);
 		History get_history();
+
+		std::string get_code_info(std::string code);
+		char get_code_key(std::string code);
+		std::string get_code_key(char code);
+		void set_code_info(std::string code, std::string code_info);
+
+        void set_homeTablePageNo(int no);
+        int get_homeTablePageNo();
+
+        void set_getInfoTablePageNo(int no);
+        int get_infoTablePageNo();
 		
 		node *root;
 
@@ -154,7 +176,7 @@ class Generator {
                 std :: string generate_number(int type, int country_or_area_code);
 
 		// func overloading, func use to generate vip number    
-                std :: string generate_number(int type, int country_or_area_code, int size, int vip);
+                std :: string generate_number(int type, int country_or_area_code, int size, std::string vip);
 
 };
 

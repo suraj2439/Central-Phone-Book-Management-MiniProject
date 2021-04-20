@@ -15,6 +15,7 @@ int main(int argc, char *argv[]) {
 
 	a.exec();
 
+	/*
 	std::vector<hstry> hst;
 	History hstr = w.get_history();
 	hst = hstr.retrive();
@@ -23,6 +24,6 @@ int main(int argc, char *argv[]) {
 	std::cout<<hst.size()<<"end";
 	for(int i = 0; i < hst.size(); i++) 
 		std::cout<<hst[i].num<<std::endl;
-	
+	*/
 	return 0;
 }

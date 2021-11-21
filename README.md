@@ -19,7 +19,3 @@ CSV file: CSV files are used as database and file is loaded in trie and while en
 - Suraj Machhindra Yerkal
 - Siddhesh Rajendra Mehta
 - Vallabh Vivek Kulkarni
-
-## License & copyright
-
-Licensed under the [MIT License](LICENSE)
